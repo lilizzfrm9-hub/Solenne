@@ -1,0 +1,17 @@
+{
+  "name": "project-name",
+  "version": "1.0.0",
+  "description": "A brief description of the project",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "test": "jest"
+  },
+  "dependencies": {
+    "example-dependency": "^1.0.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.0.0",
+    "jest": "^26.0.0"
+  }
+}
